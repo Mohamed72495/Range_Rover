@@ -5,7 +5,8 @@ import typing as t
 import random
 from supporting_functions import normalize_degree
 
-# For mode
+# For mode 
+# Go forward or stop or Go backward
 class MainMode(Enum):
     FORWORD = 'forward'
     STOP = 'stop'
