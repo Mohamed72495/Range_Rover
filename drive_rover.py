@@ -35,7 +35,7 @@ ground_truth = mpimg.imread('../calibration_images/map_bw.png')
 # and puts the map into the green channel.  This is why the underlying 
 # map output looks green in the display image
 ground_truth_3d = np.dstack((ground_truth*0, ground_truth*255, ground_truth*0)).astype(np.float)
-
+#define many variables to help us 
 # Define RoverState() class to retain rover state parameters
 class RoverState():
     def __init__(self):
@@ -95,7 +95,7 @@ class RoverState():
 
 # Initialize our rover 
 Rover = RoverState()
-
+#to access anything we do Rover.thing 
 # Variables to track frames per second (FPS)
 # Intitialize frame counter
 frame_counter = 0
