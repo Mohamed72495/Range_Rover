@@ -8,7 +8,7 @@ Next, read in and display a random image from the test_dataset folder
 
 
 
-
+# Quick Look at the Data
 path = '../test_dataset/IMG/*'
 img_list = glob.glob(path)
 # Grab a random image and display it
