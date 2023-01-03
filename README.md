@@ -17,7 +17,7 @@ python drive_rover.py
 - Open new Terminal in src code file
 
 ```python
-conda activate condaEnv
+conda activate condaEnviroment
 ```
 ```python
 jupyter notebook
